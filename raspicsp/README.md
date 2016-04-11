@@ -9,6 +9,8 @@ Compile it using
 > cmake .
 > make
 
+Hook up a pic (MCLR to GPIO 2, PGC to 3 and PGD to 4)
+
 Then invoke it:
 > ./raspicsp PIC24FJ64GB0XX test.hex
 
